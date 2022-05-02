@@ -5,11 +5,11 @@ name: CI/CD Pipeline
 on:
   workflow_dispatch:
   # Uncomment if you want to add parameters to the manual workflow
-  # inputs:
-  #   logLevel:
-  #     description: 'Log level'
-  #     required: true
-  #     default: 'warning'
+   inputs:
+     logLevel:
+       description: 'Log level'
+       required: true
+       default: 'warning'
   #   tags:
   #     description: 'Test scenario tags'
 
